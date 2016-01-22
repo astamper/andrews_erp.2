@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  resources :stocktypes
+
   resources :order_items
 
   resources :customers
